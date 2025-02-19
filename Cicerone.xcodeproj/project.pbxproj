@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1C08B22D14D7D1001FDC74 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C08B12D14D7D1001FDC74 /* Resources.swift */; };
+		1F1C08B42D14D905001FDC74 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1C08B32D14D905001FDC74 /* TabBarController.swift */; };
 		1F499B942B73FF140088FC56 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F499B932B73FF140088FC56 /* InformationViewController.swift */; };
+		1F499B972B7529C90088FC56 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 1F499B962B7529C90088FC56 /* PinLayout */; };
+		1F4ADCBE2D580FF3008377BC /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCBD2D580FF3008377BC /* NavBarController.swift */; };
+		1F4ADCC02D58D789008377BC /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCBF2D58D789008377BC /* BaseController.swift */; };
+		1F4ADCC42D58E07D008377BC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCC32D58E07D008377BC /* MainController.swift */; };
+		1F4ADCC62D58EB29008377BC /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCC52D58EB29008377BC /* UIView+ext.swift */; };
+		1F4ADCCD2D6532B3008377BC /* ExhibitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCCC2D6532B3008377BC /* ExhibitController.swift */; };
+		1F4ADCCF2D6532F0008377BC /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCCE2D6532F0008377BC /* ScheduleController.swift */; };
+		1F4ADCD12D653320008377BC /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ADCD02D653320008377BC /* SettingsController.swift */; };
 		1F7B49B62B58770900C85C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B49B52B58770900C85C60 /* AppDelegate.swift */; };
 		1F7B49B82B58770900C85C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B49B72B58770900C85C60 /* SceneDelegate.swift */; };
 		1F7B49BA2B58770900C85C60 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B49B92B58770900C85C60 /* MainViewController.swift */; };
@@ -37,7 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1C08B12D14D7D1001FDC74 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1F1C08B32D14D905001FDC74 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1F499B932B73FF140088FC56 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		1F4ADCBD2D580FF3008377BC /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		1F4ADCBF2D58D789008377BC /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		1F4ADCC32D58E07D008377BC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		1F4ADCC52D58EB29008377BC /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		1F4ADCCC2D6532B3008377BC /* ExhibitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitController.swift; sourceTree = "<group>"; };
+		1F4ADCCE2D6532F0008377BC /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleController.swift; sourceTree = "<group>"; };
+		1F4ADCD02D653320008377BC /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		1F7B49B22B58770900C85C60 /* Cicerone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cicerone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7B49B52B58770900C85C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7B49B72B58770900C85C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F499B972B7529C90088FC56 /* PinLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4ADCC72D653158008377BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1F4ADCC32D58E07D008377BC /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1F4ADCC92D653229008377BC /* Exhibit */ = {
+			isa = PBXGroup;
+			children = (
+				1F4ADCCC2D6532B3008377BC /* ExhibitController.swift */,
+			);
+			path = Exhibit;
+			sourceTree = "<group>";
+		};
+		1F4ADCCA2D65323F008377BC /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				1F4ADCCE2D6532F0008377BC /* ScheduleController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		1F4ADCCB2D65324E008377BC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1F4ADCD02D653320008377BC /* SettingsController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		1F7B49A92B58770900C85C60 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +185,8 @@
 				1F7B49C32B58771300C85C60 /* Info.plist */,
 				1F7B49B52B58770900C85C60 /* AppDelegate.swift */,
 				1F7B49B72B58770900C85C60 /* SceneDelegate.swift */,
+				1F1C08B12D14D7D1001FDC74 /* Resources.swift */,
+				1F4ADCC52D58EB29008377BC /* UIView+ext.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,8 +194,15 @@
 		1F7B49E62B58803300C85C60 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1F7B49B92B58770900C85C60 /* MainViewController.swift */,
+				1F4ADCCB2D65324E008377BC /* Settings */,
+				1F4ADCCA2D65323F008377BC /* Schedule */,
+				1F4ADCC92D653229008377BC /* Exhibit */,
+				1F4ADCC72D653158008377BC /* Main */,
 				1F499B932B73FF140088FC56 /* InformationViewController.swift */,
+				1F7B49B92B58770900C85C60 /* MainViewController.swift */,
+				1F1C08B32D14D905001FDC74 /* TabBarController.swift */,
+				1F4ADCBD2D580FF3008377BC /* NavBarController.swift */,
+				1F4ADCBF2D58D789008377BC /* BaseController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,6 +223,9 @@
 			dependencies = (
 			);
 			name = Cicerone;
+			packageProductDependencies = (
+				1F499B962B7529C90088FC56 /* PinLayout */,
+			);
 			productName = Cicerone;
 			productReference = 1F7B49B22B58770900C85C60 /* Cicerone.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 1F7B49A92B58770900C85C60;
+			packageReferences = (
+				1F499B952B7529C90088FC56 /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			productRefGroup = 1F7B49B32B58770900C85C60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -278,8 +345,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7B49BA2B58770900C85C60 /* MainViewController.swift in Sources */,
+				1F4ADCD12D653320008377BC /* SettingsController.swift in Sources */,
+				1F4ADCCD2D6532B3008377BC /* ExhibitController.swift in Sources */,
 				1F7B49B62B58770900C85C60 /* AppDelegate.swift in Sources */,
+				1F1C08B22D14D7D1001FDC74 /* Resources.swift in Sources */,
+				1F4ADCBE2D580FF3008377BC /* NavBarController.swift in Sources */,
+				1F4ADCC62D58EB29008377BC /* UIView+ext.swift in Sources */,
+				1F4ADCC42D58E07D008377BC /* MainController.swift in Sources */,
+				1F1C08B42D14D905001FDC74 /* TabBarController.swift in Sources */,
+				1F4ADCCF2D6532F0008377BC /* ScheduleController.swift in Sources */,
 				1F7B49B82B58770900C85C60 /* SceneDelegate.swift in Sources */,
+				1F4ADCC02D58D789008377BC /* BaseController.swift in Sources */,
 				1F499B942B73FF140088FC56 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU7TQJVTAS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cicerone/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,7 +550,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mks.Cicerone;
+				PRODUCT_BUNDLE_IDENTIFIER = mks.russian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU7TQJVTAS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cicerone/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -499,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mks.Cicerone;
+				PRODUCT_BUNDLE_IDENTIFIER = mks.russian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -619,6 +697,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F499B952B7529C90088FC56 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F499B962B7529C90088FC56 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F499B952B7529C90088FC56 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F7B49AA2B58770900C85C60 /* Project object */;
 }

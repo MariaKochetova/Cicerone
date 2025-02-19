@@ -6,17 +6,19 @@
 //
 
 import UIKit
+import PinLayout
 
+/*
 final class MainViewController: UIViewController {
     private let titleLabel = UILabel()
     private let button = UIButton()
-    //private let image = UIImageView(image: mainscreen)
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .init(red: 226, green: 199, blue: 167, alpha: 1.0)
-        
+       // view.backgroundColor = .init(red: 226, green: 199, blue: 167, alpha: 1.0)
+        view.backgroundColor = .black
         titleLabel.text = "Добро пожаловать!"
         titleLabel.textAlignment = .center
         titleLabel.textColor = .systemBrown
@@ -38,11 +40,25 @@ final class MainViewController: UIViewController {
         view.addSubview(titleLabel)
         view.addSubview(button)
         
-        setupConstrains()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        titleLabel.pin
+            .horizontally(16)
+            .vCenter()
+            .sizeToFit(.width)
+        
+        button.pin
+            .below(of: titleLabel)
+            .marginTop(40)
+            .height(42)
+            .horizontally(16)
     }
     
     private func setupConstrains() {
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+/*        titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint(item: titleLabel,
                            attribute: .centerX,
@@ -106,7 +122,7 @@ final class MainViewController: UIViewController {
                            attribute: .bottom,
                            multiplier: 1,
                            constant: 250).isActive = true
-        
+        */
     }
     
     @objc
@@ -119,4 +135,4 @@ final class MainViewController: UIViewController {
         self.present(informationViewController, animated: true)
     }
 }
-
+*/
